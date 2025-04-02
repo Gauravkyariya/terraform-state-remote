@@ -12,8 +12,13 @@ resource "aws_instance" "my_instance" {
 
 resource "aws_s3_bucket" "bckt" {
   bucket = "gkbcktssssss"
-  
 }
+
+resource "aws_s3_bucket" "bcktss" {
+  bucket = "skttttt"
+}
+
+
 
 terraform {
   backend "s3" {
